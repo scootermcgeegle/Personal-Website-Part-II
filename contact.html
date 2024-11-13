@@ -1,4 +1,97 @@
-<script src="contact.html"></script>
-setTimeout(() => {
-  window.location.href = window.location.origin
-}, 5000)
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://www.linkedin.com/scga"
+    />
+    <script src="javascript.js"></script>
+
+    <title>Contact</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="name">Scott Galen/h1>
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- https://www.linkedin.com/scga  -->
+    <div class="form-card1">
+      <div class="form-card2">
+        <form class="form" action="success.html">
+          <p class="form-heading">Get In Touch</p>
+
+          <div class="form-field">
+            <input
+              required=""
+              placeholder="Name"
+              class="input-field"
+              type="text"
+            />
+          </div>
+
+          <div class="form-field">
+            <input
+              required=""
+              placeholder="Email"
+              class="input-field"
+              type="email"
+            />
+          </div>
+
+          <div class="form-field">
+            <input
+              required=""
+              placeholder="Subject"
+              class="input-field"
+              type="text"
+            />
+          </div>
+
+          <div class="form-field">
+            <textarea
+              required=""
+              placeholder="Message"
+              cols="30"
+              rows="3"
+              class="input-field"
+            ></textarea>
+          </div>
+
+          <button class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <nav class="social-navbar">
+        <ul class="social-links">
+          <li>
+            <a
+              href="https://www.linkedin.com/scga/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </li>
+
+          <li>
+            <a href="https://github.com/scootermcgeegle" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
